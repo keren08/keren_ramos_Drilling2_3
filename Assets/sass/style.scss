@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.periodico{
+    background-color: rgb(6, 6, 120);
+    color: aliceblue;
+    text-align: center;
+    padding: 2%;
+}
+
+.contenedor{
+    
+    &__parrafo{
+    text-align: center;
+    padding:  2% 0;
+
+    hr{
+        margin: 1% 10px;
+        height: 1px;
+        background-color: black;
+    }
+    }
+
+    &__img{
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        &__img{
+            width: 100%;
+        }
+
+        &__titulo{
+            position: absolute;
+            margin-bottom: 10%;
+            font-size: 400%;
+            color: orange;
+            -webkit-text-stroke: 1px black;
+            margin: 10%;
+            text-align: center ;
+        }
+    }
+
+    &__titulos{
+        display: flex;
+
+        &__item{
+            background-color: red;
+            padding: 2%;
+            color: aliceblue;
+
+            &__num{
+                background-color: gray;
+                padding: 4%;
+                float: right;
+            }
+        }
+    }
+}
+
